@@ -60,3 +60,28 @@
     margin-top: 50px;
 
 }
+
+#mainheader{
+    display: flex;
+    justify-content: space-between;
+}
+#navbar{
+    display: flex;
+    justify-content: space-between;
+    
+    margin: 50px;
+}
+
+#navbar .stud-logo{
+    display: flex;
+    margin-right: 30px;
+}
+#navbar .staff-logo{
+    display: flex;
+}
+
+#navbar .stud-logo p{
+    font-size: 25px;
+    color: white;
+    background-color: black;
+}
