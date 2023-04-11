@@ -74,14 +74,128 @@
 
 #navbar .stud-logo{
     display: flex;
-    margin-right: 30px;
+    margin-right: 50px;
+    
 }
 #navbar .staff-logo{
     display: flex;
 }
 
-#navbar .stud-logo p{
+#navbar .stud-logo p,
+#navbar .staff-logo p{
     font-size: 25px;
     color: white;
     background-color: black;
+    height: 40px;
+    width: 200px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 900;
+    margin-left: -30px;
 }
+
+#list-staff{
+position: absolute;
+width: 92%;
+height: 80%;
+left: 130px;
+top: 130px;
+
+background: #CDCFEE;
+
+
+}
+#list-staff .stafflist2{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    background-image: url(img/Rectangle\ 45.png);
+}
+
+#list-staff .stafflist2 .frame1{
+    
+position: absolute;
+top: 0;
+left: 0;
+    
+}
+#list-staff .stafflist2 .frame2{
+    
+    position: absolute;
+    left: 80px;
+    top:50px
+        
+    }
+    #list-staff .stafflist2 .staff-pic{
+        
+        position: absolute;
+        left: 100px;
+        top: 125px;
+    }
+    #list-staff .stafflist2 .name{
+        
+        position: absolute;
+        left: 100px;
+        top: 290px;
+        background-color: #E0C667;
+        height: 40px;
+        font-size: 30px;
+    }
+
+    
+    #list-staff .stafflist2{
+        display: flex;
+        justify-content: space-between;
+        position: relative;
+        background-image: url(img/Rectangle\ 45.png);
+    }
+    
+    #list-staff .stafflist2 .frame1{
+        
+    position: absolute;
+    top: 0;
+    left: 0;
+        
+    }
+    #list-staff .stafflist2 .frame2{
+        
+        position: absolute;
+        left: 80px;
+        top:50px
+            
+        }
+        #list-staff .stafflist2 .staff-pic{
+            
+            position: absolute;
+            left: 100px;
+            top: 125px;
+        }
+        #list-staff .stafflist2 .name{
+            
+            position: absolute;
+            left: 100px;
+            top: 290px;
+            background-color: #E0C667;
+            height: 40px;
+            font-size: 30px;
+        }
+#s{
+    position: absolute;
+width: 92%;
+height: 80%;
+left: 130px;
+top: 130px;
+background-color: #CDCFEE;
+
+}
+#s .cont{
+    background-color: green;
+    position: relative;
+    left: 130px;
+top: 130px;
+}
+    
+        
+    
