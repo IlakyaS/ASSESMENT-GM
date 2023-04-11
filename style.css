@@ -104,14 +104,17 @@ body{
 
 
 #so{
-    background-color: #CDCFEE;
+    background: #CDCFEE;
     height: 100vh;
-    width: 95%;
+    width: 90%;
     display: flex;
     flex-wrap: wrap;
     margin: 100px;
     justify-content: space-between;
+    box-shadow:  0px 0px 40px 40px #CDCFEE;
+    
 }
+    
   
 #so .cont{
     position: relative;
@@ -119,6 +122,7 @@ body{
     height:100px;
     margin:0 300px;
     padding: 100px;
+    
 }
 
 #so .cont .f1{
@@ -128,6 +132,26 @@ body{
 #so .cont .f2{
     position: absolute;
     z-index: 1;
+    top: 150px;
+    left: 185px;
+}
+#so .cont .pic{
+    position: absolute;
+    z-index: 1;
+    top: 220px;
+    left: 205px;
+}
+#so .cont .name{
+    position: absolute;
+    z-index: 1;
+    top: 380px;
+    left: 205px;
+    background-color: #E0C667;
+    height: 40px;
+    font-size: 30px;
+    width: 150px;
+    text-align: center;
+        
 }
         
     
