@@ -214,4 +214,65 @@ body{
         
 }
         
-    
+    /*----------------------------------------------------responsive-------------------------*/
+
+    @media(max-width:1000px){
+        #loginbox{
+            width: 300px;
+            height: 500px;
+        }
+        #loginbox .fieldbox input{
+            width: 300px;
+            height: 30px;
+            font-size: 20px;
+
+        }
+        #loginbox button {
+            width: 350px;
+            height: 60px;
+            margin-top: 20px;
+        }
+        #logo img{
+            width: 150px;
+            height: 80px;
+        }
+        #navbar .stud-logo img,
+        #navbar .staff-logo img{
+            
+            display: none;
+        }
+        #navbar .stud-logo p, #navbar .staff-logo p {
+            
+            width: 100px;
+            
+        }
+        #navbar{
+            margin: 10px;
+        }
+        #st{
+            width: 300px;
+            height: 100vh;
+        }
+        #st .cont{
+            position: relative;
+            
+            width:100px;
+            height:100px;
+            margin:50px -70px;
+            padding: 100px ;
+            
+        }
+        #so{
+            width: 300px;
+            height: 100vh;
+        }
+        #so .cont{
+            position: relative;
+            
+            width:100px;
+            height:100px;
+            margin:50px -70px;
+            padding: 100px ;
+            
+        }
+    }
