@@ -324,4 +324,59 @@ body{
             padding: 100px ;
             
         }
+        #stdetail-cont{
+        margin: 20px;
+        flex-direction: column;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 500px;
+        height: 100vh;
+        }
+
+        #stdetail-cont .row{
+            padding: 10px;
+        }
+        #stdetail-cont .row:nth-child(1){
+            position: absolute;
+            bottom: 0;
+        }
+        #stdetail-cont .row:nth-child(2){
+            position: absolute;
+            top: 20px;
+        }
+        #stdetail-cont .row img{
+            width: 300px;
+            margin-top: 50px;
+        }
+        #stdetail-cont .row h1{
+    padding-left: 100px;
+    font-size: 30px;
+    font-weight: 600;
+    
+        }
+        #myTable{
+            
+        width: 400px;
+    }
+        #myTable tr{
+    margin-top: 20px;
+    padding: 0px;
+}
+#myTable tr td{
+    font-size: 20px;
+    padding-top: 20px;
+}
+#stdetail-cont .st1logo{
+    position: absolute;
+    top: -50px;
+    
+}
+#stdetail-cont .st1logo img{
+    
+
+    height: 100px;
+}
+
     }
