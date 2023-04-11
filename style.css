@@ -79,16 +79,18 @@ body{
 #navbar .stud-logo{
     display: flex;
     margin-right: 50px;
+    cursor: pointer;
     
 }
 #navbar .staff-logo{
     display: flex;
+    cursor: pointer;
 }
 
 #navbar .stud-logo p,
 #navbar .staff-logo p{
     font-size: 25px;
-    color: white;
+    color: rgb(127, 125, 125);
     background-color: black;
     height: 40px;
     width: 200px;
@@ -98,6 +100,10 @@ body{
     align-items: center;
     font-weight: 900;
     margin-left: -30px;
+}
+#navbar .stud-logo p:hover,
+#navbar .staff-logo p:hover{
+    color: white;
 }
 
 
@@ -112,7 +118,7 @@ body{
     margin: 100px;
     justify-content: space-between;
     box-shadow:  0px 0px 40px 40px #CDCFEE;
-    
+    display: flex;
 }
     
   
@@ -165,9 +171,10 @@ body{
     margin: 100px;
     justify-content: space-between;
     box-shadow:  0px 0px 40px 40px #CDCFEE;
+    display: none;
     
 }
-    
+  
   
 #st .cont{
     position: relative;

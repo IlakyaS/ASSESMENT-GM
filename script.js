@@ -18,3 +18,13 @@ function validate(){
         alert.style.color="red";
     }
 }
+
+
+function showstud(){
+    document.getElementById('st').style.display="flex"
+    document.getElementById('so').style.display="none"
+}
+function showstaff(){
+    document.getElementById('st').style.display="none"
+    document.getElementById('so').style.display="flex"
+}
