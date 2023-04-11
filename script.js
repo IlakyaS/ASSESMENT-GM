@@ -28,3 +28,5 @@ function showstaff(){
     document.getElementById('st').style.display="none"
     document.getElementById('so').style.display="flex"
 }
+
+

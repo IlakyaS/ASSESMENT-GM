@@ -128,6 +128,7 @@ body{
     height:100px;
     margin:0 300px;
     padding: 100px;
+    cursor: pointer;
     
 }
 
@@ -182,6 +183,7 @@ body{
     height:100px;
     margin:0 300px;
     padding: 100px;
+    cursor: pointer;
     
 }
 
@@ -208,10 +210,57 @@ body{
     left: 205px;
     background-color: #E0C667;
     height: 40px;
-    font-size: 30px;
+    font-size: 20px;
     width: 150px;
     text-align: center;
         
+}
+#stdetail-cont{
+    display: flex;
+    background-color: #3DB2D3;
+    justify-content: space-around;
+    margin: 200px 550px;
+    box-shadow: inset 0 0 80px 50px black;
+    border-radius: 30px;
+    position: relative;
+}
+#stdetail-cont .row{
+    flex-basis: 45%;
+    padding: 50px 0 50px 80px;
+    
+}
+#stdetail-cont .row img{
+    width: 600px;
+    border-radius: 30px;
+    background-color: gray;
+    display: flex;
+    margin-top: 100px;
+
+}
+#stdetail-cont .row h1{
+    padding-left: 250px;
+    font-size: 70px;
+    font-weight: 600;
+    color: white;
+}
+#myTable{
+    width: 100%;
+}
+#myTable tr{
+    margin-top: 50px;
+    padding: 100px;
+}
+#myTable tr td{
+    font-size: 60px;
+    padding: 20px;
+    color: white;
+}
+#stdetail-cont .st1logo{
+    position: absolute;
+    top: -150px;
+}
+#stdetail-cont .st1logo img{
+    height: 350px;
 }
         
     /*----------------------------------------------------responsive-------------------------*/
