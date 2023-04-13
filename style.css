@@ -170,7 +170,7 @@
     display: flex;
     flex-wrap: wrap;
     margin: 100px;
-    justify-content: space-between;
+    justify-content: center;
     box-shadow:  0px 0px 40px 40px #CDCFEE;
     display: none;
     
@@ -293,36 +293,66 @@
         }
         #staff-head, #stud-head {
             
-            
+            width: 100px;
         }
         #navbar{
             margin: 10px;
         }
         #st{
-            width: 300px;
-            height: 100vh;
+            height: 100%;
+            width: 80%;
+            margin: auto;
+            flex-direction: column;
+
         }
         #st .cont{
-            position: relative;
+            margin:20px auto;
+            padding: 0px ;
+            display: flex;
+            width: 400px;
+            height: 400px;
+            justify-content: center;
             
-            width:100px;
-            height:100px;
-            margin:50px -70px;
-            padding: 100px ;
-            
+        }
+        #st .cont .f2{
+            top: 45px;
+            left: 105px;
+        }
+        #st .cont .pic{
+            top: 115px;
+            left: 130px;
+        }
+        #st .cont .name{
+            top: 265px;
+            left: 127px;
         }
         #so{
-            width: 300px;
-            height: 100vh;
+            height: 100%;
+            width: 80%;
+            margin: auto;
+            flex-direction: column;
+
         }
         #so .cont{
-            position: relative;
+            margin:20px auto;
+            padding: 0px ;
+            display: flex;
+            width: 400px;
+            height: 400px;
+            justify-content: center;
             
-            width:100px;
-            height:100px;
-            margin:50px -70px;
-            padding: 100px ;
-            
+        }
+        #so .cont .f2{
+            top: 45px;
+            left: 105px;
+        }
+        #so .cont .pic{
+            top: 115px;
+            left: 130px;
+        }
+        #so .cont .name{
+            top: 265px;
+            left: 127px;
         }
         #stdetail-cont{
         
@@ -331,7 +361,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        width: 500px;
+        width: 400px;
         height: 100vh;
         
         }
@@ -349,7 +379,8 @@
             top: 20px;
         }
         #stdetail-cont .row img{
-            width: 250px;
+            width: 200px;
+            height: 250px;
             margin-top: 50px;
         }
         #stdetail-cont .row h1{
